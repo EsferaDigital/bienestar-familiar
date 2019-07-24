@@ -28,7 +28,10 @@
   }
   & .Titulo{
     grid-area: titulo;
-    color: color(secondary);
+    color: color(cta);
+    margin: 1rem auto;
+    margin-bottom: .5rem;
+    font-weight: bold;
   }
   & .Sub-titulo{
     grid-area: subtitulo;
@@ -39,8 +42,8 @@
   }
   & .Btn-cta{
     grid-area: btn-cta;
-    margin: 1rem auto;
-    margin-bottom: 2rem;
+    margin: 2rem auto;
+    margin-bottom: 4rem;
   }
 }
 
