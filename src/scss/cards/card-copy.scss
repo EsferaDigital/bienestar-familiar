@@ -1,6 +1,7 @@
 .Card-copy{
+  // border: 1px solid red;
   display: grid;
-  max-width: 500px;
+  max-width: 585px;
   margin: auto;
   grid-template-columns: var(--columns-card-copy);
   grid-template-rows: var(--rows-card-copy);
@@ -12,12 +13,14 @@
     justify-self: center;
     @include mq(md){
       justify-self: end;
+      // border: 1px solid blue;
     }
   }
   & p:last-child{
     justify-self: center;
     @include mq(md){
       justify-self: start;
+      // border: 1px solid green;
     }
   }
 }

@@ -24,11 +24,17 @@
   text-align: center;
   width: 100%;
   height: auto;
-  background-image: img("fondo-banner.jpg");
+  background-image: img("familia.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center 80%;
+  --opacidad-bg: .7;
+  @include mq(md){
+    background-position: top center;
+    background-image: img("fondo-banner.jpg");
+    --opacidad-bg: .4;
+  }
   &:before{
     position: absolute;
     content: "";
@@ -36,7 +42,7 @@
     width: 100%;
     height: 100%;
     background-color: color(fondo);
-    opacity: .3;
+    opacity: var(--opacidad-bg);
   }
 }
 

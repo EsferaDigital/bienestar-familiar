@@ -62,7 +62,7 @@ const showButton = () =>{
 const bgColorHeader = () =>{
   const h = document.getElementById('Header')
   if(window.pageYOffset > 0){
-    h.style.backgroundColor = "#58BB54";
+    h.style.backgroundColor = "#041c37";
   }else{
     h.style.backgroundColor = "transparent"
   }

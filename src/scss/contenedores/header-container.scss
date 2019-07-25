@@ -106,7 +106,7 @@
   padding-top: $altura-header;
   text-align: center;
   height: 100%;
-  background: color(secondary);
+  background: color(primary);
   @include mq(lgs){
     width: 100%;
     padding-top: 0;
@@ -147,7 +147,7 @@
       font-size: 1.3rem;
     }
     &:hover{
-      background-color: color(secondary);
+      background-color: color(quaternary);
     }
   }
 }

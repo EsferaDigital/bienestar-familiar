@@ -28,7 +28,7 @@
   }
   & .Titulo{
     grid-area: titulo;
-    color: color(cta);
+    color: color(tertiary);
     margin: 1rem auto;
     margin-bottom: .5rem;
     font-weight: bold;
@@ -38,7 +38,8 @@
   }
   & .Slogan{
     grid-area: slogan;
-    color: color(tacha);
+    color: color(tertiary);
+    font-weight: bold;
   }
   & .Btn-cta{
     grid-area: btn-cta;

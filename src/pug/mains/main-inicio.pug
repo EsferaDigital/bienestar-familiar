@@ -2,16 +2,16 @@ main.Main
   .Banner
     .Container-grid
       h1.Titulo Bienestar Familiar
-      h2.Sub-titulo Promoviendo los valores de la Familia
-      p.Slogan Somos la justicia en las calles y la esperanza de las personas.
-      a(class="Btn-cta" href="https://chat.whatsapp.com/invite/BpcpmjJnsoQG3mXEvLf0Xc", target="_blank") Contáctanos
+      h2.Sub-titulo Promoviendo y protegiendo a las Familias chilenas
+      p.Slogan Por el desarrollo sano e integral de nuestros hijos.
+      a(class="Btn-cta" href="https://forms.gle/9F5jXegdpHAqEp2o9", target="_blank") Únete
   section#somos.Somos
     .Box-text
       h2.Titulo-2 Quiénes Somos?
     .Box-text
       .Card-text
-        p.Parrafo El grupo GBV es una organización no gubernamental de desarrollo sin fines de lucro, ayuda a las víctimas a recuperar sus vehículos robados en terreno.
-        p.Parrafo Operamos desde el año 2013 aunque, oficialmente, el grupo es fundado en el año 2014.
+        p.Parrafo La Corporación para el Bienestar Familiar es un organización no gubernamental de desarrollo sin fines de lucro cuyo objetivo es el bienestar de la comunidad a través de la realización de actividades de asesoramiento, educación y orientación. Promovemos el cuidado de la salud de manera responsable e informada, defendiendo la libertad individual de optar al sistema de salud o tratamiento que cada uno prefiera.
+        p.Parrafo Como comunidad contamos con 7 años de existencia, encontrándonos hoy en el proceso de constituirnos oficialmente, etapa en la que esperamos nos acompañes apoyandonos y/o formando parte de esta red de madres y padres organizados.
     .Box-btn
       button.Btn-modal#Historia Saber más
   section#hacemos.Hacemos
@@ -19,10 +19,10 @@ main.Main
       h2.Titulo-2 Qué hacemos?
     .Box-text
       .Card-text
-        h3.Titulo-3 Buscamos vehículos robados
+        h3.Titulo-3 Difundimos información relevante sobre las vacunas y sus efectos
         p.Parrafo Compartimos la información que ustedes nos entregan de los vehículos que han sido robados y, aprovechando la red de voluntarios que circulan en sus propios vehículos por la ciudad, detenemos y damos aviso a las autoridades cuando encuentramos un auto robado.
       .Card-text
-        h3.Titulo-3 Tiene costo?
+        h3.Titulo-3 Cómo nos financiamos?
         p.Parrafo No, es un trabajo voluntario realizado por personas que alguna vez fueron víctimas de robo o que, sencillamente, buscan cooperar en la búsqueda de los autos que han sido robados porque están cansados de que nos gane la delincuencia.
       .Card-text
         h3.Titulo-3 Cómo opera?
@@ -46,16 +46,14 @@ main.Main
       .Card-text
         h3.Titulo-3 Síguenos
         p.Parrafo Puedes seguirnos en Facebook o unirte a nuestro grupo de Whatsapp
-        a(href="https://www.facebook.com/GrupoGBV/?referrer=whatsapp", target="_blank").Icon-link.fab.fa-facebook-square
-        a(class="Icon-link fab fa-whatsapp" href="https://chat.whatsapp.com/invite/BpcpmjJnsoQG3mXEvLf0Xc" target="_blank")
+        a(href="https://www.facebook.com/groups/394498854485201/", target="_blank").Icon-link.fab.fa-facebook-square
+        a(class="Icon-link fab fa-whatsapp" href="https://chat.whatsapp.com/LimXdgGHJ164rstFJq6bGQ" target="_blank")
       .Card-text
         h3.Titulo-3 Apóyanos
-        p.Parrafo Recibimos donaciones en nuestra cuenta del Banco Estado
-        p.Parrafo Número: 23571897385
-        p.Parrafo O a través de PayPal
+        p.Parrafo Recibimos donaciones a través de PayPal
         form(action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top")
-          input(type="hidden" name="cmd" value="_s-xclick")
-          input(type="hidden" name="hosted_button_id" value="KL25PV4QN2REY")
+          input(type="hidden" name="cmd" value="_donations")
+          input(type="hidden" name="business" value="XXCDPT5P2WD2G")
           input(type="image" src="img/boton-paypal.png" border="none" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button")
           img(alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1")
 include ../elements/modal-historia

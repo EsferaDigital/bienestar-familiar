@@ -23,11 +23,11 @@
 }
 
 .Somos{
-  @include section-img(color(primary), .8);
+  @include section-img(color(tertiary), .6);
   background-image: img("fondo-somos.jpg");
   & .Box-text:nth-child(1){
     width: 100%;
-    background-color: color(secondary);
+    background-color: color(primary);
     position: relative;
     z-index: capa(capa1);
   }
@@ -39,18 +39,24 @@
     }
     & .Card-text{
       padding-top: 2rem;
+      & p{
+        color: color(granny);
+      }
     }
   }
 }
 
 .Hacemos{
-  @include section-img(color(primary), .8);
+  @include section-img(color(primary), .6);
   background-image: img("fondo-hacemos.jpg");
   & .Box-text:nth-child(1){
     width: 100%;
     background-color: color(secondary);
     position: relative;
     z-index: capa(capa1);
+    & h2{
+      color: color(granny);
+    }
   }
   & .Box-text{
     position: relative;
@@ -67,12 +73,12 @@
 }
 
 .Sumate{
-  @include section-img(color(primary), .8 );
+  @include section-img(color(tertiary), .6 );
   background-image: img("fondo-unete.jpg");
   padding-bottom: 2rem;
   & .Box-text:nth-child(1){
     width: 100%;
-    background-color: color(secondary);
+    background-color: color(primary);
     position: relative;
     z-index: capa(capa1);
   }
@@ -88,6 +94,9 @@
       grid-gap: 1rem;
       margin: 1rem auto;
       padding: 0 1rem;
+      & p{
+        color: color(granny);
+      }
     }
   }
   & .Box-text{
@@ -109,16 +118,21 @@
       grid-template-areas: "unete siguenos apoyanos";
       grid-gap: .5rem;
     }
+    & .Card-text{
+      & h3{
+        color: color(primary);
+        font-weight: bold;
+      }
+      & p{
+        color: color(granny);
+      }
+    }
     & .Card-text:nth-child(1){
       grid-area: unete;
       text-align: center;
       // border: 1px solid yellow;
       & button{
         margin: 1rem auto;
-        background-color: color(cta);
-        &:hover{
-          background-color: darken(color(cta), 5);
-        }
       }
     }
     & .Card-text:nth-child(2){

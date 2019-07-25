@@ -24,7 +24,7 @@ $altura-header: 5rem; //revisar
   --columns-card-copy: 1fr;
   --rows-card-copy: 1fr 1fr;
   @include mq(md){
-    --columns-card-copy: 1fr 1fr;
+    --columns-card-copy: repeat(2, minmax(min-content, max-content));
     --rows-card-copy: none;
   }
 }
