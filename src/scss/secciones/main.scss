@@ -23,7 +23,7 @@
 }
 
 .Somos{
-  @include section-img(color(tertiary), .6);
+  @include section-img(color(tertiary), .8);
   background-image: img("fondo-somos.jpg");
   & .Box-text:nth-child(1){
     width: 100%;
@@ -47,7 +47,7 @@
 }
 
 .Hacemos{
-  @include section-img(color(primary), .6);
+  @include section-img(color(primary), .8);
   background-image: img("fondo-hacemos.jpg");
   & .Box-text:nth-child(1){
     width: 100%;
@@ -73,7 +73,7 @@
 }
 
 .Sumate{
-  @include section-img(color(tertiary), .6 );
+  @include section-img(color(tertiary), .8 );
   background-image: img("fondo-unete.jpg");
   padding-bottom: 2rem;
   & .Box-text:nth-child(1){
